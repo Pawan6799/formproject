@@ -1,0 +1,74 @@
+
+/* Styles for the form */
+body {
+    font-family: Arial, sans-serif;
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    background-color: #007BFF;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+.as{display: flex;}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Styles for the buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"] {
+    background-color: #DC3545;
+}
+/* Styles for the popup */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
